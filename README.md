@@ -5,7 +5,7 @@ CLTV, one of the CRM techniques, is based on the calculation process.
 ** I could not add the file to the project directory because the file size is large. Download it from the link below. 
 https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
--** If you cannot access the data, I can provide the data if you contact me.
+** If you cannot access the data, I can provide the data if you contact me.
 
 ############################################
 # CUSTOMER LIFETIME VALUE 
