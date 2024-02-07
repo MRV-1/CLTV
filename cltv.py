@@ -105,14 +105,14 @@ cltv_c["segment"] = pd.qcut(cltv_c["cltv"], 4, labels=["D", "C", "B", "A"])
 
 cltv_c.sort_values(by="cltv", ascending=False).head()
 
-#oluşan segmentleri analiz edelim
+#Let's analyze the segments formed
 cltv_c.groupby("segment").agg({"count", "mean", "sum"})
 
 cltv_c.to_csv("cltc_c.csv")   #saving results
 
 
 
-BONUS: Functionalization of All Operations
+#BONUS: Functionalization of All Operations
 def create_cltv_c(dataframe, profit=0.10):
 
     dataframe = dataframe[~dataframe["Invoice"].str.contains("C", na=False)]
@@ -146,5 +146,6 @@ def create_cltv_c(dataframe, profit=0.10):
 
 clv = create_cltv_c(df)
 
-#uygulanılan bu yöntemin bazı kısıtları vardır, projeksiyon yönü düşüktür, kitle üzerinde bazı sabitleri barındırır ama kitlenin bazı genel davranışını göz önünde bulunduramaz
-#dolayısıyla bu hesaba istatistiksel bir modelleme açısından yaklaşıldığında daha gelişmiş modeller söz konusu olmaktadır
+
+
+
