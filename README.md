@@ -42,7 +42,7 @@ https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
  CustomerID Unique customer number
  Country: Country name. The country where the customer lives.
 
-# There were many different segmentation processes, the process to be used here will be according to the Lifetime Value.
+There were many different segmentation processes, the process to be used here will be according to the Lifetime Value.
 
 You can review my article below for details of the transactions.
 
@@ -50,5 +50,6 @@ https://medium.com/@merveatasoy48/crm-analytics-and-cltv-calculating-41b2127ad95
 
 If there is anything you don't understand, please contact me.
 
-
+NOTE : This method has some limitations; the projection direction is low, it accommodates some constants on the population but cannot take into account some general behavior of the population.
+So when this calculation is approached from a statistical modeling point of view, more sophisticated models are available.
 
