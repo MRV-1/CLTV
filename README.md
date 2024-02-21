@@ -1,5 +1,5 @@
-# CLTV
-CLTV, one of the CRM techniques, is based on the calculation process.
+# Customer LifeTime Value
+Customer LifeTime Value, one of the CRM techniques, is based on the calculation process.
 
 
 ** I could not add the file to the project directory because the file size is large. Download it from the link below. 
